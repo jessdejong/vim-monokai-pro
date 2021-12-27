@@ -12,8 +12,8 @@ endif
 
 let g:colors_name = "monokai_pro"
 
-SignColumn ctermbg = 237
-LineNr ctermbg = 59
+" SignColumn ctermbg = 237
+" LineNr ctermbg = 59
 " Default group
 hi Cursor ctermfg=236 ctermbg=231 cterm=NONE guifg=#2d2a2e guibg=#fcfcfa gui=NONE
 hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guibg=#3a3a3a guifg=NONE guisp=NONE gui=NONE
