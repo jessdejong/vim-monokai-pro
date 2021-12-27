@@ -12,15 +12,16 @@ endif
 
 let g:colors_name = "monokai_pro"
 
-"Sign Column was #3a3a3a
+SignColumn ctermbg = 237
+LineNr ctermbg = 59
 " Default group
 hi Cursor ctermfg=236 ctermbg=231 cterm=NONE guifg=#2d2a2e guibg=#fcfcfa gui=NONE
-hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE guibg=#423F42 guifg=NONE guisp=NONE gui=NONE
+hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE guibg=#3a3a3a guifg=NONE guisp=NONE gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#403e41 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
-hi LineNr ctermfg=246 ctermbg=59 cterm=NONE guifg=#959394 guibg=#423f42 gui=NONE
+hi LineNr ctermfg=246 ctermbg=NONE cterm=NONE guifg=#959394 guibg=#423f42 gui=NONE
 hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#696769 guibg=#696769 gui=NONE
 hi MatchParen ctermfg=204 ctermbg=NONE cterm=underline guifg=#ff6188 guibg=NONE gui=underline
 hi StatusLine ctermfg=231 ctermbg=59 cterm=bold guifg=#fcfcfa guibg=#696769 gui=bold
