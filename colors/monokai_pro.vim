@@ -79,6 +79,9 @@ hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gu
 " syn match Brackets /[{}]/
 " syn match Arrow /->/
 
+" Java (definitions from java-syntax plugin)
+hi javaDelimiter ctermfg=231 ctermbg=NONE cterm=NONE guifg=#fcfcfa guibg=NONE gui=NONE
+hi javaIdentifier ctermfg=231 ctermbg=NONE cterm=NONE guifg=#fcfcfa guibg=NONE gui=NONE
 
 " Ruby
 hi rubyClass ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff6188 guibg=NONE gui=NONE
